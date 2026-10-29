@@ -1,0 +1,20 @@
+1. State change ho
+Jab useState ya useReducer se state update hoti hai.
+const [count, setCount] = useState(0);
+
+return <button onClick={() => setCount(count + 1)}>{count}</button>;
+
+
+Button click par count change hoga, toh component re-render hoga.
+2. Parent component re-render ho
+Parent re-render hota hai toh uske child components bhi normally re-render hote hain, chahe props change na hon. React.memo kuch cases mein unnecessary child re-renders skip kar sakta hai.
+3. Context ki value change ho
+Agar component useContext se kisi Context ko use kar raha hai aur us Context ki value change hoti hai, toh component re-render hota hai.
+
+Props change hon: Child ko naye props milne par woh usually re-render hota hai.
+
+useRef ki value change ho: Sirf ref.current change karne se re-render nahi hota.
+
+Normal variable change ho: Usse bhi automatically re-render nahi hota.
+
+useEffect chale: Effect chalne se apne aap re-render nahi hota; lekin effect ke andar state update ho toh ho sakta hai.
