@@ -9,3 +9,11 @@ Context Value Change: Agar aapne useContext use kiya hai aur Context ke andar ki
 
 1-Line Interview Summary:
 "Component tab re-render hota hai jab uski state change ho, uske props badlein, uska parent component re-render ho, ya koi related Context update ho."
+
+Props change hon: Child ko naye props milne par woh usually re-render hota hai.
+
+useRef ki value change ho: Sirf ref.current change karne se re-render nahi hota.
+
+Normal variable change ho: Usse bhi automatically re-render nahi hota.
+
+useEffect chale: Effect chalne se apne aap re-render nahi hota; lekin effect ke andar state update ho toh ho sakta hai.
