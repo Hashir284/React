@@ -1,0 +1,11 @@
+Re-render Kab Hota Hai? (4 Main Triggers)
+State Change (useState): Jab bhi aap setState function call karte hain aur state ki value change hoti hai, toh React component ko dobara render karta hai.
+
+Props Change: Jab parent component se child component ko milne wale props change ho jate hain.
+
+Parent Component Re-render: By default, jab bhi koi parent component re-render hota hai, toh uske andar ke saare child components bhi automatically re-render ho jate hain (chahe unke props change hue hon ya na hue hon).
+
+Context Value Change: Agar aapne useContext use kiya hai aur Context ke andar ki value ya data change hota hai, toh us Context ko consume karne wale saare components re-render ho jate hain.
+
+1-Line Interview Summary:
+"Component tab re-render hota hai jab uski state change ho, uske props badlein, uska parent component re-render ho, ya koi related Context update ho."

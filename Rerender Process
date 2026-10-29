@@ -1,0 +1,18 @@
+Re-render ka Process (Step-by-Step)
+Trigger & Execution:
+Jab state ya props change hote hain, React component function ko dobara top-to-bottom run karta hai aur naye variables/functions banata hai.
+
+New Virtual DOM Creation:
+Function return hone wale naye JSX se ek naya Virtual DOM tree tayar hota hai.
+
+Diffing / Reconciliation:
+React apne Diffing Algorithm ke zariye purane Virtual DOM aur naye Virtual DOM ko aapas mein compare karta hai yeh dekhne ke liye ke asli changes kahan aaye hain.
+
+Real DOM Update (Commit Phase):
+React poora page refresh nahi karta, balki jo sirf exact change hota hai (e.g., text ya class), sirf wahi part Real Browser DOM mein update karta hai.
+
+Effects Execution:
+Agar component mein useEffect laga ho aur uski dependencies change hui hon, toh purane effect ka cleanup chalne ke baad naya effect run hota hai.
+
+1-Line Interview Summary:
+"Re-render mein component dobara execute ho kar naya Virtual DOM banata hai, React usay purane Virtual DOM se compare (diffing) karta hai, aur sirf changed part ko Real DOM mein update kar deta hai."

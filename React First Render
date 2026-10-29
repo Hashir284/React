@@ -1,0 +1,19 @@
+1. Component Function Pehli Baar Chalta Hai
+React aapke component function ko top se bottom tak execute karta hai.
+useState apne initial value ke sath memory mein state variable banata hai.
+
+2. Pehla Virtual DOM Banta Hai
+Function return hone wale JSX ko process karta hai aur ek initial Virtual DOM tree (memory mein ek blueprint) tayar karta hai.
+
+3. Real DOM mein Insertion (Mounting / Paint)
+React is Virtual DOM ko real browser DOM mein inject kar deta hai.
+
+Iske baad hi woh element ya page aapko browser screen par nazar (render) aata hai.
+
+4. useEffect Hooks Run Hote hain
+Jab component screen par completely mount ho jata hai, tab agar koi useEffect laga ho toh woh execute hota hai.
+Agar dependency array empty [] ho, toh yeh sirf pehli baar (on mount) hi chalta hai (jaise APIs se data fetch karne ya timers lagane ke liye).
+
+1-Line Answer (Short Summary):
+"Initial render (Mounting) mein component execute ho kar initial state ke sath pehla Virtual DOM banata hai, usay Real DOM mein mount karta hai, aur phir useEffect run karta hai."
+

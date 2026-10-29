@@ -1,0 +1,4 @@
+Props read-only data hote hain jo parent component se child component mein pass kiye jate hain. 
+Yeh components ko reusable banane mein madad karte hain taake hum ek hi component ko alag-alag data ke sath mukhtalif jagah use kar sakein
+
+State component ka apna personal data hota hai jo waqt ke sath change ho sakta hai. Jab bhi state change hoti hai React khud-ba-khud uss screen (UI) ko update kar deta hai taake naya data user ko nazar aaye
