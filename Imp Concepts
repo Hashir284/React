@@ -1,0 +1,34 @@
+1. React — focused revision
+- Hooks: useState, useEffect, useRef
+- useMemo, useCallback, useReducer
+- Props, state, Context API
+- Forms, API integration, loading/error states
+- Component re-rendering aur performance
+- Interview questions + khud code likhna
+
+
+
+
+2. Node.js + Express — project ke through
+- Apne existing code ko samjho.
+- Routes, middleware, error handling aur authentication ko practical use karo.
+- Jahan atko, us concept ko revise karo.
+- Bina dekhe chhote features implement karne ki practice karo.
+
+
+
+
+3. PostgreSQL — practice jaari rakho
+
+Queries, joins, relationships, constraints aur transactions ko project mein use karo.
+
+4. Js
+[ ] Functions, arrow functions, callbacks & HOF
+[ ] Arrays: map, filter, reduce, find, forEach
+[ ] Objects, destructuring & spread/rest
+[ ] Scope, hoisting & closures
+[ ] Promises: then, catch, Promise.all
+[ ] async/await & try/catch
+[ ] Event loop: microtasks vs macrotasks
+[ ] Data types, == vs === & type coercion
+[ ] JSON.stringify, JSON.parse & localStorage

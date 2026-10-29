@@ -1,5 +1,5 @@
-Context API ek aesa React feature hai jo props drilling (data ko baar-baar har child component mein pass karne) ki pareshani ko khatam karta hai.
+Context API ek aesa React feature hai jo props drilling (data ko baar-baar har child component mein pass karne) ki pareshani ko khatam karta hai
 
-Iske zariye hum kisi bhi data (jaise user info, theme, ya language) ko ek Central Store mein rakh kar direct kisi bhi component tak pohncha sakte hain.
+Iske zariye hum kisi bhi data (jaise user info) ko ek Central Store mein rakh kar direct kisi bhi component tak pohncha sakte hain
 
-Yeh choti ya medium-sized applications ke liye Global State Management ka kaam karta hai bina kisi heavy library (jaise Redux) ke.
+Yeh choti ya medium-sized applications ke liye Global State Management ka kaam karta hai bina kisi heavy library (jaise Redux) ke
